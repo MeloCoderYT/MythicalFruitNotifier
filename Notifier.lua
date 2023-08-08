@@ -15,7 +15,7 @@ end
 local function playSound(asset_id, pb_speed)
 	local sound = Instance.new("Sound", workspace)
 	sound.SoundId = asset_id
-	sound.Volume = 1
+	sound.Volume = 3
 	sound.PlaybackSpeed = pb_speed
 	sound:Play()
 
@@ -34,7 +34,7 @@ local function createLed()
 	
 	local led = Instance.new("Frame")
 	led.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-	led.BackgroundTransparency = 0.3
+	led.BackgroundTransparency = 0.4
 	led.Position = UDim2.new(1.3, 0, 0.35, 0)
 	led.Size = UDim2.new(0, 8, 0, 8)
 	led.Name = "NotifierLed"
@@ -121,6 +121,14 @@ local function enableNotifier(fruit)
 				fruit_name = "Smoke"
 			elseif string.lower(fruit_name) == "quaketest" then
 				fruit_name = "Quake"
+			elseif string.lower(fruit_name) == "mochi" then
+				fruit_name = "DOUGHHH"
+			elseif string.lower(fruit_name) == "dragon" then
+				fruit_name = "DRAGONNN"
+			elseif string.lower(fruit_name) == "leopard" then
+				fruit_name = "LEOPARDOOO"
+			elseif string.lower(fruit_name) == "soul" then
+				fruit_name = "SPIRIT"
 			end
 
 			if (lang == "pt-br") then

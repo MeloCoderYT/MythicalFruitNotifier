@@ -1,1 +1,1 @@
-https://github.com/MeloCoderYT/MythicalFruitNotifier/blob/main/Notifier.lua
+loadstring(game:HttpGet(https://github.com/MeloCoderYT/MythicalFruitNotifier/blob/main/Notifier.lua))();

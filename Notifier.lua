@@ -1,3 +1,6 @@
+-- CÓDIGO FEITO POR euyogi 
+-- Nomes das frutas por MeloCoderYT 
+
 local local_player = game.Players.LocalPlayer
 local notifier = local_player.PlayerGui:WaitForChild("Main"):WaitForChild("Radar")
 

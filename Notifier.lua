@@ -128,6 +128,10 @@ local function enableNotifier(fruit)
 				fruit_name = "Dough"
 			elseif string.lower(fruit_name)=="soul" then
 				fruit_name = "Spirit"
+			elseif string.lower(fruit_name)=="door" then
+				fruit_name = "Portal"
+			elseif string.lower(fruit_name)=="human:buddha" then
+				fruit_name = "Buddha"
 			end
 
 			if (lang == "pt-br") then

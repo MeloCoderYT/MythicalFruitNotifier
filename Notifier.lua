@@ -124,7 +124,7 @@ local function enableNotifier(fruit)
 				fruit_name = "Smoke"
 			elseif string.lower(fruit_name) == "quaketest" then
 				fruit_name = "Quake"
-			elseif string.lower(fruit_name) == "dough" then
+			elseif string.lower(fruit_name) == "mochi" then
 				fruit_name = "Dough"
 			elseif string.lower(fruit_name)=="soul" then
 				fruit_name = "Spirit"
